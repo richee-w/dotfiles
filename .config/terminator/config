@@ -1,0 +1,24 @@
+[global_config]
+  title_transmit_bg_color = "#008cc8"
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#052c3a"
+    background_darkness = 0.91
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Semi-Bold 14
+    foreground_color = "#deddda"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    use_system_font = False
+    bold_is_bright = True
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
