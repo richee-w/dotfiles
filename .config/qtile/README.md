@@ -1,4 +1,4 @@
-# Qtile
+# qtile windows manager
 
 ## 10/07/2022
 
