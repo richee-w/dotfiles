@@ -19,6 +19,8 @@ I modified ***the $HOME.config/qtile/config.py*** file to clean up the output an
 
 Now I am able to view my keybindings very quickly.
 
+![Alt](screen-shots/yak-qtile-keys.png "qtile keybindings in yad")
+
 ## 11/07/2022
 
 Now looking at DT's [dotfiles on gitlab](https://gitlab.com/dwt1/dotfiles) to modify keybindings.  As this is my first escapade into tiling window mangers, it makes sense to start with some kind of standard to avoid needless re-learning later in.
