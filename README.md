@@ -1,3 +1,5 @@
 # Dotfiles from Endeavour OS - KDE Plasma - qtile
 
-main desktop "lindesk"
+## oh my bash
+
+- omb uses custom.bashrc so make edits to /omb-custom/bashrc.sh
