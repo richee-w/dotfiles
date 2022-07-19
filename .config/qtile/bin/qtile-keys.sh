@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sed -n '/START_KEYS/,/END_KEYS/p' ~/.config/qtile/config.py | \
+sed -n '/START_KEYS/,/END_KEYS/p' ~/.config/qtile/modules/keys.py | \
 grep -e Key \
 -e 'KB_GROUP' | \
 sed -e 's/^[ \t]*/ /' \
