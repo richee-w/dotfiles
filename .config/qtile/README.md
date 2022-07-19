@@ -2,7 +2,7 @@
 
 ## Edit 19/07/2022
 
-This is now broken since upgrading to endeavour os qtile CE config files. This was expected.  I'll get round to fixing when I have time.
+**This is now broken since upgrading to endeavour os qtile CE config files. This was expected.  I'll get round to fixing when I have time.**
 
 ---
 
