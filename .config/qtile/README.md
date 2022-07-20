@@ -1,11 +1,5 @@
 # qtile windows manager
 
-## Edit 19/07/2022
-
-**This is now broken since upgrading to endeavour os qtile CE config files. This was expected.  I'll get round to fixing when I have time.**
-
----
-
 ### Quickly view keybindings in qtile
 
 Script adapted from ["Want A List Of Your Keybindings? Write A Shell Script!"](https://www.youtube.com/watch?v=WkXyXIs-ZMI&t=1410s) by Distro Tube. The YouTube video shows how to put together a "Quick view keybindings" script for Xmonad. The script has been adapted to work on **qtile**. I suspect the ***sed - e*** regex stuff used in my adaption could be more efficient, but hey, it works! The script will likely have to change somewhat as I move forward with customising **qtile**.
@@ -21,5 +15,10 @@ The script lives in ***$HOME/.config/qtile/bin/*** and I have added the path to 
     Key([mod], "b", lazy.spawn("/home/rich/.config/qtile/bin/qtile-keys.sh"), desc="Show keybindings"),
 
 Now I am able to view my keybindings very quickly.
+
+## Edit 19/07/2022
+
+**This is now broken since upgrading to endeavour os qtile CE config files. This was expected.  I'll get round to fixing when I have time.**
+
 
 ![Alt](screen-shots/yak-qtile-keys.png "qtile keybindings in yad")
